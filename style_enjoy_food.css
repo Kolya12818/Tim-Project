@@ -4,8 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    margin: 0 auto;
+.enjoy-food {
     width: 1280px;
     height: 824px;
 }
@@ -171,4 +170,10 @@ h3 {
     background-image: url(img/aple1.png);
     background-repeat: no-repeat;
     margin-top: -50px;
+}
+.container{
+    width: 1280px;
+    height: 3802px;
+    background: #000;
+    margin: 0 auto;
 }
