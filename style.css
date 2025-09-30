@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+ body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ }
+.favourite-food {
+    display: flex;
+    background: #f1f0f0;
+    width: 1280px;
+    height: 608px;
+    
+}
+
+.food-text {
+    font-family: 'Roboto', sans-serif;
+    width: 502px;
+    height: 213px;
+    margin-top: 231px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.text-favourite:nth-child(1) {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2C2C2C;
+}
+
+.text-favourite:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2C2C2C;
+
+}
+
+.favourite-btn {
+    font-family: 'Roboto', sans-serif;
+    width: 98px;
+    padding: 8px 30px;
+    margin-top: 12px;
+    white-space: nowrap;
+    border-radius: 30px;
+    background: #BBF330;
+    color: #2C2C2C;
+    font-weight: 500;
+    padding-left: 16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.circle {
+    position: relative;
+    display: flex;
+    width: 580px;
+    height: 580px;
+    background: #FFE550;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-left: 151px;
+}
+
+.salads {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+}
+
+.inner-circle {
+    width: 530px;
+    height: 530px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.5%;
+    left: 4.5%;
+    right: 5%;
+}
+
+.arrow-left {
+    position: absolute;
+    width: 40px;
+    height: 48px;
+    background: #FEFEFE;
+    font-size: 45px;
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-top: -300px;
+    margin-left: -38px;
+    color: #2C2C2C;
+    font-weight: 800;
+}
+.arrow-left {
+    position: absolute;
+    width: 40px;
+    height: 48px;
+    background: #FEFEFE;
+    font-size: 45px;
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-top: -300px;
+    margin-left: -38px;
+    color: #2C2C2C;
+    font-weight: 800;
+      cursor: pointer;
+}
+.arrow-right{
+      position: absolute;
+    width: 40px;
+    height: 48px;
+    background: #FEFEFE;
+    font-size: 45px;
+    border-radius: 8px;
+    padding-left: 5px;
+      color: #2C2C2C;
+    font-weight: 800;
+    margin-left: 520px;
+    margin-top: -300px;
+    cursor: pointer;
+    
+}
