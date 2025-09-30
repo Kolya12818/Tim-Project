@@ -5,18 +5,20 @@
     box-sizing: border-box;
     border-style: none;
 }
- body{
+
+body {
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
- }
+}
+
 .favourite-food {
     display: flex;
     background: #f1f0f0;
     width: 1280px;
     height: 608px;
-    
+
 }
 
 .food-text {
@@ -100,6 +102,7 @@
     color: #2C2C2C;
     font-weight: 800;
 }
+
 .arrow-left {
     position: absolute;
     width: 40px;
@@ -112,20 +115,21 @@
     margin-left: -38px;
     color: #2C2C2C;
     font-weight: 800;
-      cursor: pointer;
+    cursor: pointer;
 }
-.arrow-right{
-      position: absolute;
+
+.arrow-right {
+    position: absolute;
     width: 40px;
     height: 48px;
     background: #FEFEFE;
     font-size: 45px;
     border-radius: 8px;
     padding-left: 5px;
-      color: #2C2C2C;
+    color: #2C2C2C;
     font-weight: 800;
     margin-left: 520px;
     margin-top: -300px;
     cursor: pointer;
-    
+
 }
