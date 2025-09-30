@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    height: 824px;
+}
+
+.background {
+    width: 1280px;
+    height: 824px;
+    background-image: url(img/Rectangle\ 694.svg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.grup1 {
+    width: 573px;
+    height: 392px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 30px;
+
+}
+
+.grup-img {
+    width: 550px;
+    height: 604px;
+    margin-right: 45px;
+    margin-top: 140px;
+}
+
+.grup1-1 {
+    width: 526px;
+    height: 192px;
+    margin-top: -40px;
+    margin-bottom: 70px;
+
+}
+
+.grup1-1 h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: -1px;
+}
+
+.grup1-1 p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.grup1-1 p {
+    width: 500px;
+    height: 72px;
+
+
+}
+
+.grup1-2 {
+    width: 253px;
+    height: 160px;
+    margin-left: 0px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+
+}
+
+.grup1-2 p {
+    width: 253px;
+    height: 63px;
+
+}
+
+.grup1-3 {
+    width: 253px;
+    height: 160px;
+}
+
+.grup1-3 p {
+    width: 253px;
+    height: 160px;
+    margin-left: 0px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+}
+
+button {
+    width: 106px;
+    height: 40px;
+    width: 106;
+    border-radius: 30px;
+    border-width: 2px;
+    border: 2px solid rgba(126, 177, 1, 1);
+    position: absolute;
+    left: 656px;
+    top: 688px;
+    background: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+
+.svg1 {
+    width: 48px;
+    height: 48px;
+    background-image: url(img/Icon\ Deliv.svg);
+}
+
+.svg2 {
+    width: 48px;
+    height: 48px;
+    background-image: url(img/Icon\ Order.svg);
+}
+
+.first-circle {
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    background: rgba(255, 229, 80, 1);
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.second-circle {
+    width: 502px;
+    height: 502px;
+    background-color: rgba(254, 254, 254, 1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.apple {
+    width: 396px;
+    height: 520px;
+    background-image: url(img/aple1.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+}
