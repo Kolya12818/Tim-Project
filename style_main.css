@@ -12,7 +12,7 @@ body {
 
 .favourite-food {
     display: flex;
-    background: #f1f0f0;
+    background: rgba(255, 255, 255, 1);
     width: 1280px;
     height: 608px;
 
