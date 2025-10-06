@@ -68,3 +68,49 @@ body {
 .customers-person p span {
     font-weight: normal;
 }
+.customers {
+    position: relative;
+}
+
+.offers {
+    position: relative;
+    bottom: 66px;
+    display: flex;
+}
+
+
+.offers-info h3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 46px;
+}
+
+.offers-info p {
+    width: 656px;
+    margin-top: 20px;
+}
+
+.offers-input-btn {
+    margin-top: 24px;
+    display: flex;
+    gap: 32px;
+}
+
+.offers-input-btn input {
+    display: flex;
+    height: 42px;
+    padding: 12px 0 12px 12px;
+    align-items: center;
+    width: 395px;
+    border-radius: 30px;
+    border: 1px solid #FFE550;
+}
+
+.offers-input-btn button {
+    display: inline-flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #BBF330;
+}
