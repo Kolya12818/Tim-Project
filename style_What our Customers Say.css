@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.customers {
+    background-image: url(./img/Yellow.png);
+    margin-top: 100px;
+    height: 647px;
+    padding: 100px 0 200px 16px;
+    margin-top: 50px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.customers h3 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.customers p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 139px;
+    margin-top: 32px;
+    list-style: none;
+}
+
+.customers-item {
+    background: white;
+    width: 501px;
+    height: 227px;
+    padding: 14px;
+    border-radius: 0 30px 30px 30px;
+}
+
+.customers-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    width: 473px;
+    margin-top: 28px;
+}
+
+.customers-person {
+    display: flex;
+    margin-top: 40px;
+    width: 175px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-right: #7EB101 solid 1px;
+}
+
+.customers-person img {
+    width: 48px;
+    height: 48px;
+}
+
+.customers-person p {
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.customers-person p span {
+    font-weight: normal;
+}
