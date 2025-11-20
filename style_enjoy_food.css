@@ -10,15 +10,28 @@ body {
     margin-top: -150px;
 }
 
-.background {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1280px;
-    height: 824px;
-    background-image: url(img/Rectangle\ 694.svg);
+
+}
+
+.background {
+    width: 100%;
+    min-height: 824px;
+    /* max-height: 220px; */
+    background-image: url(./img/Rectangle\ 694.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
-
+    position: absolute;
+    /* margin-left: -200px; */
+    left: 0;
+    object-fit: contain;
 }
 
 .grup1 {
@@ -113,9 +126,6 @@ body {
     border-radius: 30px;
     border-width: 2px;
     border: 2px solid rgba(126, 177, 1, 1);
-    position: absolute;
-    left: 656px;
-    top: 688px;
     background: rgba(255, 255, 255, 1);
     font-family: Roboto;
     font-weight: 500;
@@ -168,12 +178,569 @@ h3 {
 .apple {
     width: 396px;
     height: 520px;
-    background-image: url(img/aple1.png);
+    background-image: url(./img/aple1.png);
     background-repeat: no-repeat;
     margin-top: -50px;
 }
-.container{
-    width: 1280px;
-    height: 3802px;
-    margin: 0 auto;
+
+.grup-buttons {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: -400px;
+
+}
+
+button {
+    width: 106px;
+    height: 40px;
+    width: 106;
+    border-radius: 30px;
+    border-width: 2px;
+    border: 2px solid rgba(126, 177, 1, 1);
+    left: 656px;
+    top: 688px;
+    background: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+}
+
+.read-more {
+    width: 100px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    display: none;
+}
+
+.read-more div {
+    width: 13px;
+    height: 13px;
+    background-image: url(img/Vector.svg);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.big-apple {
+    display: none;
+}
+
+.small-apple {
+    display: none;
+}
+
+.text-enjou-food {
+    display: none;
+    font-size: 14px;
+}
+
+@media (max-width:1279px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .enjoy-food {
+        margin: 0 auto;
+        width: 768px;
+        height: 1140px;
+    }
+
+    .background {
+        width: 768px;
+        height: 1340px;
+        background-image: url(./img/Rectangle\ 694.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -250px;
+        position: static;
+
+    }
+
+    .grup1 {
+        width: 704px;
+        height: 392px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+
+    }
+
+    .grup-img {
+        width: 704px;
+        height: 393px;
+        margin-top: 150px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .grup1-1 {
+        width: 526px;
+        height: 192px;
+        margin-top: -40px;
+        margin-bottom: 70px;
+
+    }
+
+    .grup1-1 h2 {
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 42px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+
+    }
+
+    .grup1-1 p {
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        letter-spacing: 0%;
+        padding-top: 20px;
+
+    }
+
+    .grup1-1 p {
+        width: 500px;
+        height: 72px;
+
+
+    }
+
+    .grup1-2 {
+        width: 253px;
+        height: 160px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+    }
+
+    .grup1-2 p {
+        width: 253px;
+        height: 63px;
+
+    }
+
+    .grup1-3 {
+        width: 253px;
+        height: 160px;
+        margin-right: 40px;
+    }
+
+    .grup1-3 p {
+        width: 253px;
+        height: 160px;
+        margin-left: 0px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+    }
+
+
+    h3 {
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0%;
+
+    }
+
+    .svg1 {
+        width: 48px;
+        height: 48px;
+        background-image: url(img/Icon\ Deliv.svg);
+    }
+
+    .svg2 {
+        width: 48px;
+        height: 48px;
+        background-image: url(img/Icon\ Order.svg);
+    }
+
+    .first-circle {
+        width: 357px;
+        height: 357px;
+        border-radius: 100%;
+        background: rgba(255, 229, 80, 1);
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+    .second-circle {
+        width: 325px;
+        height: 325px;
+        background-color: rgba(254, 254, 254, 1);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .apple {
+        width: 257px;
+        height: 400px;
+        background-image: url(img/appleTablet.png);
+        background-repeat: no-repeat;
+        margin-top: -100px;
+    }
+
+    .button-enjou-food {
+        width: 106px;
+        height: 40px;
+        width: 106;
+        border-radius: 30px;
+        border-width: 2px;
+        border: 2px solid rgba(126, 177, 1, 1);
+        background: rgba(255, 255, 255, 1);
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: Medium;
+    }
+
+    .grup-buttons {
+        width: 250px;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: -80px;
+    }
+
+    .read-more {
+        width: 200px;
+        height: 34px;
+        display: block;
+
+    }
+
+    .arrow-wrapper {
+        width: 82px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grup-buttons {
+        width: 400px;
+        height: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: -400px;
+
+    }
+
+    .arrow {
+        width: 83px;
+        height: 34px;
+        background-image: url(./img/Vector.svg);
+        background-repeat: no-repeat;
+
+    }
+
+    .second-apple {
+        width: 166px;
+        height: 210px;
+        background-image: url();
+        margin-top: 50px;
+    }
+
+    .third-apple {
+        width: 108px;
+        height: 136px;
+        background-image: url();
+        margin-top: 120px;
+
+    }
+
+    .big-apple {
+        position: absolute;
+        display: block;
+        padding-left: 400px;
+    }
+
+    .small-apple {
+        padding-top: 50px
+    }
+
+    .small-apple {
+        display: block;
+    }
+
+    .text-enjou-food {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .order-group {
+        display: flex;
+        padding-right: 500px;
+        gap: 40px;
+        padding-bottom: 200px;
+    }
+
+    .read-more {
+        width: 100px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        display: block;
+    }
+
+    .read-more div {
+        width: 13px;
+        height: 13px;
+        background-image: url(img/Vector.svg);
+        background-repeat: no-repeat;
+        display: block;
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .enjoy-food {
+        margin: 0 auto;
+        width: 320px;
+        height: 1050px;
+        position: relative;
+    }
+
+    .background {
+        width: 320px;
+        height: 1050px;
+        background-image: url(./img/Rectangle\ 694.png);
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .grup1 {
+        width: 320px;
+        height: 1050px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    .grup-img {
+        width: 280px;
+        height: 309px;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .grup1-1 {
+        width: 280px;
+        height: 200px;
+
+    }
+
+    .grup1-1 h2 {
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    .grup1-1 p {
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        letter-spacing: 0%;
+
+    }
+
+    .grup1-1 p {
+        width: 272px;
+        height: 80px;
+    }
+
+    .grup1-2 {
+        width: 252px;
+        height: 141px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        margin-top: -70px;
+        margin-left: -25px;
+
+    }
+
+    .grup1-2 p {
+        width: 253px;
+        height: 63px;
+
+    }
+
+    .grup1-3 {
+        width: 252px;
+        height: 141px;
+
+    }
+
+
+    .grup1-3 p {
+        width: 253px;
+        height: 160px;
+        margin-left: 0px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+
+    h3 {
+        font-family: Roboto;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        margin-left: 10px;
+
+    }
+
+    .svg1 {
+        width: 48px;
+        height: 48px;
+        background-image: url(img/Icon\ Deliv.svg);
+        padding-top: 5px;
+
+    }
+
+    .svg2 {
+        width: 48px;
+        height: 48px;
+        background-image: url(img/Icon\ Order.svg);
+        margin-left: 10px;
+    }
+
+    .first-circle {
+        width: 280px;
+        height: 280px;
+        border-radius: 100%;
+        background: rgba(255, 229, 80, 1);
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .second-circle {
+        width: 255px;
+        height: 255px;
+        background-color: rgba(254, 254, 254, 1);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .apple {
+        width: 200px;
+        height: 310px;
+        background-image: url(./img/aple\ \(2\).png);
+        background-repeat: no-repeat;
+        margin-top: -50px;
+    }
+
+    .button-enjou-food {
+        width: 106px;
+        height: 40px;
+        width: 106;
+        border-radius: 30px;
+        border-width: 2px;
+        border: 2px solid rgba(126, 177, 1, 1);
+        left: 656px;
+        top: 688px;
+        background: rgba(255, 255, 255, 1);
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: Medium;
+        margin-left: 300px;
+    }
+
+    .grup-buttons {
+        width: 250px;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 970px;
+        left: 5px;
+
+    }
+
+    .read-more {
+        width: 100px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .read-more div {
+        width: 13px;
+        height: 13px;
+        background-image: url(img/Chevron\ Down.svg);
+    }
+
+    .big-apple {
+        position: absolute;
+        display: none;
+        padding-left: 400px;
+    }
+
+    .small-apple {
+        padding-top: 50px
+    }
+
+    .small-apple {
+        display: none;
+    }
+
+    .text-enjou-food {
+        display: none;
+        margin-top: 10px;
+    }
 }

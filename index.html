@@ -27,28 +27,36 @@
                     <li>Menu</li>
                     <li>Contact</li>
                 </ul>
-                <button>Order Now</button>
+                <div class="burger-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <button class="btn-header">Order Now</button>
             </div>
         </header>
         <div class="favourite-food">
             <div class="food-text">
-                <p class="text-favourite">Enjoy Your Favorite <br> Food From Anywhere</p>
-                <p class="text-favourite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br>
+                <p class="text-favourite">Enjoy Your Favorite Food From Anywhere</p>
+                <p class="text-favourite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     varius
                     enim
-                    in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut
+                    in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
                     commodo
                     diam libero vitae erat.</p>
                 <button class="favourite-btn">Order Now</button>
             </div>
-            <div class="circle">
-                <div class="inner-circle"></div>
-                <div class="salads">
-                    <img src="./img/Foto 1.png" alt="salads">
-                    <div class="arrow-left">&lt;</div>
-                    <div class="arrow-right">&gt;</div>
+            <div class="container-food">
+                <div class="circle">
+                    <div class="inner-circle"></div>
+                    <div class="salads">
+                        <img src="./img/Foto 1.png" alt="salads" class="salads-img active">
+                        <img src="./img/salad1.png" alt="salads" class="salads-img">
+                        <img src="./img/salad2.png" alt="salads" class="salads-img">
+                    </div>
+                    <button class="arrow-left" onclick="moveLeft()">&lt;</button>
+                    <button class="arrow-right" onclick="moveRight()">&gt;</button>
                 </div>
-
             </div>
         </div>
         <section class="enjoy-food">
@@ -59,6 +67,8 @@
                             <div class="apple"></div>
                         </div>
                     </div>
+                    <img src="./img/aple.png" alt="" class="big-apple">
+                    <img src="./img/aple (1).png" alt="" class="small-apple">
 
                 </div>
                 <div class="grup1">
@@ -84,14 +94,24 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
                             eros.
                         </p>
+                        <div class="grup-buttons">
+                            <button>Order Now</button>
+                            <div class="arrow-wrapper">
+                                <a class="read-more">Read More</a>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
                     </div>
 
+
                 </div>
-                <button class="button-enjou-food">Order Now</button>
+            </div>
         </section>
         <section class="favorites">
-            <h2>Some of Our Favorites</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="favorites-text">
+                <h2>Some of Our Favorites</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
             <div class="food-grid">
                 <div class="food-item">
                     <img src="./img/gamburger.png" alt="">
@@ -103,21 +123,23 @@
                     <img src="./img/pizza.png" alt="">
                 </div>
                 <div class="food-item">
-                    <img src="./img/chicken.png" alt="">
+                    <img src="./img/chicken.png" alt="" class=" image-mobile">
                 </div>
                 <div class="food-item">
-                    <img src="./img/salat.png" alt="">
+                    <img src="./img/salat.png" alt="" class="image-mobile">
                 </div>
                 <div class="food-item">
-                    <img src="./img/borshch.png" alt="">
+                    <img src="./img/borshch.png" alt="" class="image-mobile">
                 </div>
             </div>
         </section>
         <section class="customers">
+
             <h3>What our Customers Say</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul class="customers-list">
-                <li class="customers-item">
+
+            <div class="customers-list">
+                <div class="customers-item">
                     <img src="./img/Stars.png" alt="stars" />
                     <h4>
                         “The Best app I have used to order food in a while, so many
@@ -128,8 +150,8 @@
                         <img src="./img/Ellipse 9.png" alt="person" />
                         <p class="customers-person-text">Sumith Shah <span>Some Dude</span></p>
                     </div>
-                </li>
-                <li class="customers-item">
+                </div>
+                <div class="customers-item">
                     <img src="./img/Stars.png" alt="stars" />
                     <h4>
                         “The ease with which I can just go in and order what i want was
@@ -140,8 +162,8 @@
                         <img src="./img/Ellipse 10.png" alt="person" />
                         <p>Sumith Shah <span>Some Dude</span></p>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
         <section class="offers">
             <div class="offers-info">
@@ -155,7 +177,7 @@
                     <button>Subscribe</button>
                 </div>
             </div>
-            <div>
+            <div class="banan-img">
                 <img src="./img/banan.png" alt="banana" />
             </div>
         </section>
