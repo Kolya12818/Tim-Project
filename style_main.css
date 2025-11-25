@@ -9,7 +9,8 @@
 body {
     margin: 0;
 }
-.container{
+.favourite-btn{
+    border: none;
 }
 
 .favourite-food {
@@ -99,6 +100,8 @@ body {
     border-radius: 8px;
     color: #2C2C2C;
     cursor: pointer;
+     top: 50%;
+     border: none;
 }
 
 .arrow-right {
@@ -111,7 +114,9 @@ body {
     color: #2C2C2C;
     right: 0;
     cursor: pointer;
-
+    left: 550px;
+    top: 290px;
+     border: none;
 }
 
 /* .container {
@@ -248,6 +253,7 @@ body {
         right: 0;
         top: 145px;
         cursor: pointer;
+        left: 280px;
 
     }
 
@@ -281,6 +287,7 @@ body {
     .favourite-food {
         height: 608px;
         padding-top: 100px;
+        display: flex;
 
 
     }
@@ -295,6 +302,8 @@ body {
         margin-top: -1px;
         white-space: normal;
         justify-content: center;
+        align-items: center;
+        margin-left: 150px;
         
        
     }
@@ -319,6 +328,9 @@ body {
 
 
 
+    }
+    .logo img{
+        margin-left: -150px;
     }
 
     .favourite-btn {
